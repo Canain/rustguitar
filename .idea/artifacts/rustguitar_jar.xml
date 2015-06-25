@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="rustguitar:jar">
+    <output-path>$PROJECT_DIR$/out</output-path>
+    <root id="archive" name="rustguitar.jar">
+      <element id="module-output" name="rustguitar" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/JNativeHook.jar" path-in-jar="/" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
